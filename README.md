@@ -1,4 +1,4 @@
-# Hackathon Albert 2026
+# Hackathon Albert School mai 2026
 
 ## Préalable
 
