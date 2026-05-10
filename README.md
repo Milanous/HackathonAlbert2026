@@ -27,3 +27,7 @@ Il n’y a pas de « bonne réponse ». Il y a une proposition de démarche cl
 
 ## Sujet 5 : Chasse aux navires de guerre 
 [SujetsHackathon2026/Sujet5](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet5)
+
+## Livraison des travaux
+
+Elle se fait dans le répertoire [ProjetsEtudiantsHackathon2026]. Creez un répertoire pour votre groupe, insérez-y un fichier avec la composition du groupe (prénoms et noms des membes du groupe). 
