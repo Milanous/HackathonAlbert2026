@@ -31,3 +31,55 @@ Etapes :
 3. Scripter pour traiter toutes les TTPs critiques : au dessus d’un certain score, pour traiter les TTPs concernés par le SI de l’organisation (cf. les log d’événements), les tactiques d’attaques les plus utilisées, etc..
 
 
+```yaml
+from jinja2 import Template
+import yaml
+
+# Template Jinja2 pour les politiques
+policy_template = """
+policy:
+  name: "Detect {{ ttp_id }} - {{ ttp_name }}"
+  id: "{{ ttp_id }}"
+  description: "{{ ttp_description }}"
+  severity: "{{ severity }}"
+  mitre_attack_tactic: "{{ tactic }}"
+  systems: {{ systems }}
+  logs: {{ logs }}
+"""
+
+# Exemple de données pour T1059
+ttp_data = {
+    "ttp_id": "T1059",
+    "ttp_name": "Command and Scripting Interpreter",
+    "ttp_description": "Collect process logs to detect command execution (PowerShell, Cmd, Bash).",
+    "severity": "high",
+    "tactic": "execution",
+    "systems": ["Windows", "Linux"],
+    "logs": [
+        {
+            "type": "process",
+            "source": "sysmon",
+            "fields": ["CommandLine", "ProcessName", "ParentProcessName"],
+            "retention": "30 days"
+        },
+        {
+            "type": "process",
+            "source": "auditd",
+            "fields": ["exe", "cmdline"],
+            "retention": "30 days"
+        }
+    ]
+}
+
+# Remplir le template
+template = Template(policy_template)
+policy_yaml = template.render(**ttp_data)
+
+# Sauvegarder dans un fichier
+with open(f"policies/{ttp_data['ttp_id']}.yaml", "w") as f:
+    f.write(policy_yaml)
+
+print(f"Politique générée pour {ttp_data['ttp_id']}:")
+print(policy_yaml)
+
+
