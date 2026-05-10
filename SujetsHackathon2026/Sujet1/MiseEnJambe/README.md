@@ -9,11 +9,11 @@
 (pandas, json, https://pypi.org/project/attackcti/, https://pypi.org/project/pyattck/,
 https://github.com/oasis-open/cti-python-stix2 (format STIX2...)
 
-2. Extraire les TTPs selon divers critères (ID, nom, tactique, procédures, groupes d’attaquants, campagnes d’attaques, exemples de détection) pour cibler les TTP pertinentes. Préparer la clustérisation (NLP) les TTP similaires. 
+2. Extraire les TTPs selon divers critères (ID, nom, tactique, procédures, groupes d’attaquants, campagnes d’attaques, exemples de détection) pour cibler les TTP pertinentes. Préparer la clustérisation (NLP) des TTP similaires. Comparer les TTPs avec les logs. 
 
 3. Extraire les CVE selon divers critères (ID, score CVSS, logiciels affectés, exploitations). Préprarer le scoring des CVE selon le contexte métier (CVSS).
 
-4. Mapper les CVE avec TTPs (ex. : CVE-2021-44228 → T1190). Préparer l'automatisation des liens (NLP, graphe de connaissance, ...).
+4. Mapper les CVE avec TTPs (ex. : CVE-2021-44228 → T1190). Enrichir les données avec ces liens. Préparer l'automatisation des liens (NLP, graphe de connaissance, ...).
 
 5. Générer un rapport avec les TTPs prioritaires (par exemple : CVSS > 8)
 
