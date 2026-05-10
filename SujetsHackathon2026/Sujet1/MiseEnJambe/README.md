@@ -5,7 +5,7 @@
 + Mapping entre TTP et CVE,
 + Exemple de log linux, réseau et Windows.
 
-1. Lire les fichiers log avec Python, et normaliser les données 
+1. Lire les fichiers log (Apache, Sysmon, Suricata,etc.), et normaliser les données sur les champs communs
 (pandas, json, https://pypi.org/project/attackcti/, https://pypi.org/project/pyattck/,
 https://github.com/oasis-open/cti-python-stix2 (format STIX2...)
 
@@ -19,7 +19,7 @@ https://github.com/oasis-open/cti-python-stix2 (format STIX2...)
 
 L'objectif avec les briques ci-dessus,est d'aller vers la construction d'un pipeline automatisé :
 
-1. Parse et normalise des logs bruts (Sysmon, etc.).
+1. Parse et normalise des logs bruts (Sysmon, etc.). 
 2. Enrichit les logs avec des métadonnées (TTPs, CVE, criticité).
 3. Détecte des anomalies (ML, etc.).
 4. Mappe automatiquement les logs aux TTPs/CVE avec NLP et graphes.
