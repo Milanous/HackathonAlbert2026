@@ -22,7 +22,7 @@ Utiliser des outils open source et des données OSINT pour :
 + Automatiser la détection et la réponse aux incidents.
 
 ## Consignes
-Commencez par la section "Mise en jambe" pou comprendre le problème, le contexte, les outils, les données. 
+Commencez par la section "Mise en jambe" pour comprendre le problème, le contexte, les outils, les données. 
 Continuer avec la section "Généralisation". 
 
 # SOURCES ET LIENS
@@ -57,3 +57,12 @@ une détection proactive des cybermenaces.
 STIX(TM) Version 2.0 is a language for expressing cyber threat and observable information. 
 The web page https://www.oasis-open.org/standard/stix2-0/ defines concepts that apply across all of 
 STIX and defines the overall structure of the STIX language.
+
+## CVSS Common Vulnerability Scoring System (CVSS)
+The Common Vulnerability Scoring System (CVSS) is a method used to supply a qualitative measure of severity.
+
+https://nvd.nist.gov/vuln-metrics/cvss
+
+https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator
+
+
