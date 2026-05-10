@@ -29,18 +29,6 @@ __Outils :__
 Théorie des graphes avec Neo4j ou NetworkX.
 
 # SOURCES ET LIENS
-## CTI
-La Cyber Threat Intelligence définit la recherche, l’analyse et la modélisation de la menace cyber. 
-Elle permet de décrire une menace ou une attaque informatique au travers d’éléments contextualisés et/ou 
-d’indicateurs compréhensibles par des hommes ou des machines.
-Avec l’augmentation de cyber attaques toujours plus sophistiquées, il est devenu primordial 
-d’acquérir et de maintenir une connaissance de la menace et de l’attaquant pour les entreprises et les 
-institutions. 
-
-L'organisation pou laquelle vous traitez le sujet évolue dans un environnement technologique riche, 
-complexe et distribué. Cet environnement comporte des _systèmes informatiques d'entreprise_, IT, et 
-des _systèmes industriels connectés_, OT (terminaux intelligents, objets connectés, systèmes industriels). La sécurité IT et OT protège deux domaines distincts que les attaquants exploitent désormais comme une seule surface d’attaque. Le présent challenge se concentre sur les systèmes informatiques 
-d'entreprise (IT).
 
 ## MITRE ATT&CK® 
 MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. 
@@ -60,13 +48,6 @@ une détection proactive des cybermenaces.
 STIX(TM) Version 2.0 is a language for expressing cyber threat and observable information. 
 The web page https://www.oasis-open.org/standard/stix2-0/ defines concepts that apply across all of 
 STIX and defines the overall structure of the STIX language.
-
-## CVSS Common Vulnerability Scoring System (CVSS)
-The Common Vulnerability Scoring System (CVSS) is a method used to supply a qualitative measure of severity.
-
-https://nvd.nist.gov/vuln-metrics/cvss
-
-https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator
 
 
 
