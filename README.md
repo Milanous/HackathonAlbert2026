@@ -34,7 +34,7 @@ Votre réponse  comporte :
 ## Critères d'appréciation
 + Utilisation de bibliothèques et démarches datascience et IA (NLP, LLM, automatisation, graphes de connaissance, data ploting, etc.).
 + Bon emploi des données : normalisation, nettoyage, liens entre les données, enrichisssement, labélisation, etc.
-+ Précision des résultats : mapping, liens, etc. pertinents
++ Précision des résultats : apprentissage, tuning, mapping, liens, etc. pertinents
 + Automatisation : usage d'API, de librairies, etc.
 + Collaboration : bonne répartition du travail entre les membres
 + Présentation : clarté, conviction
