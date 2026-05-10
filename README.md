@@ -16,13 +16,14 @@ Il n’y a pas de « bonne réponse ». Il y a une proposition de démarche cl
 [SujetsHackathon2026/Sujet1](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet1)
 
 ## Sujet 2 : Cartographie des impacts métier d'une attaque cyber 
-[Lien](https://exemple.com)
+[SujetsHackathon2026/Sujet2](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet2)
+
 
 ## Sujet 3 : Aide à l’identification des navires par analyse intelligente de leur radio signature 
-[Lien](https://exemple.com)
+[SujetsHackathon2026/Sujet3](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet3)
 
 ## Sujet 4 : Détection d’activités maritimes anormales à partir des données AIS 
-[Lien](https://exemple.com)
+[SujetsHackathon2026/Sujet4](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet4)
 
 ## Sujet 5 : Chasse aux navires de guerre 
-[Lien](https://exemple.com)
+[SujetsHackathon2026/Sujet5](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet5)
