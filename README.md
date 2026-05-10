@@ -14,21 +14,23 @@ Il n’y a pas de « bonne réponse ». Il y a une proposition de démarche cl
 
 ## Sujets
 ### Sujet 1 : log as code, génération automatisée de politiques de logs de sécurité 
-[SujetsHackathon2026/Sujet1](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet1)
+[SujetsHackathon2026/Sujet1]()
 
 ### Sujet 2 : Cartographie des impacts métier d'une attaque cyber 
-[SujetsHackathon2026/Sujet2](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet2)
+[SujetsHackathon2026/Sujet2]()
 
 
 ### Sujet 3 : Aide à l’identification des navires par analyse intelligente de leur radio signature 
-[SujetsHackathon2026/Sujet3](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet3)
+[SujetsHackathon2026/Sujet3]()
 
 ### Sujet 4 : Détection d’activités maritimes anormales à partir des données AIS 
-[SujetsHackathon2026/Sujet4](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet4)
+[SujetsHackathon2026/Sujet4]()
 
 ### Sujet 5 : Chasse aux navires de guerre 
-[SujetsHackathon2026/Sujet5](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/SujetsHackathon2026/Sujet5)
+[SujetsHackathon2026/Sujet5]()
 
 ## Livraison des travaux
 
-Elle se fait dans le répertoire [ProjetsEtudiantsHackathon2026](https://github.com/eanique/HackathonAlbert2026/tree/3ea2c16a2b2f3d527fb99a35470396ed0ddd0ea8/ProjetsEtudiantsHackathon2026). Creez un répertoire pour votre groupe, insérez-y un fichier avec la composition du groupe (prénoms et noms des membes du groupe). 
+Elle se fait dans le répertoire [ProjetsEtudiantsHackathon2026](). 
+
+Creez un répertoire pour votre groupe, insérez-y un fichier avec la composition du groupe (prénoms et noms des membes du groupe). 
