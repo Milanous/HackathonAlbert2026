@@ -7,9 +7,10 @@
 + Rels includes : les liens entre attaques
 + Rels targets : les liens entre attaques et actifs
 
-En utilisant Neo4j ou NetworkX ou un autre produit de votre choix : 
+En utilisant Neo4j ou NetworkX, Plotly, matplotlib ou d'autres produits de votre choix : 
 
 1. Extraire les données, les normaliser, décire les schémas dans un dictionnaire de données,
-1. Charger les fichiers dans un graphe de connaissance cohérent. Expliquer vos choix de modélisation,
+1. Charger les fichiers dans un graphe de connaissance des Actifs, Vulnérabilités, Dépendances, Processus, etc. est complet et cohérent : tous les actifs et vulnérabilités sont inclus, il n'y a pas d'orphelins, etc.
+2. Expliquer vos choix de modélisation,
 1. Simuler l’impact (propagation) d’une attaque sur le graphe, identifier les calculer les impacts selon la criticité des actifs et/ou processus, 
 1. Générer automatiquement un rapport d’impact détaillé accompagné de visualisations graphiques interactives, expédier le rapport par email. 
