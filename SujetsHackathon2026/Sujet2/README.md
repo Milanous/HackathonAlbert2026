@@ -25,7 +25,8 @@ Utiliser des outils open source et des données OSINT pour :
 Commencez par la section "Mise en jambe" pour comprendre le problème, le contexte, les outils, les données. 
 Continuer avec la section "Généralisation". 
 
-**Outils :** théorie des graphes avec Neo4j ou NetworkX.
+__Outils :__ 
+Théorie des graphes avec Neo4j ou NetworkX.
 
 # SOURCES ET LIENS
 ## CTI
