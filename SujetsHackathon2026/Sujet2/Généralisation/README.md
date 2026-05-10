@@ -18,10 +18,8 @@
 
 
 1. Fichier rels_targets_final.csv
-
 + Contenu : ~500 liens entre attaques et actifs ciblés.
 + Structure :
-
     + source (ID de l’attaque, ex: T1059).
     + target (ID de l’actif, ex: IT-SRV-001).
     + type (TARGETS).
@@ -30,10 +28,8 @@
 
 
 1. Fichier rels_generated_final.csv
-
 + Contenu : ~300 liens entre attaques et événements générés.
 + Structure :
-
     + source (ID de l’attaque).
     + target (ID de l’événement, ex: event-0001).
     + type (GENERATES).
@@ -41,10 +37,8 @@
 
 
 1. Fichier nodes_events_final.csv
-
 + Contenu : 200 événements (incidents, alertes, attaques détectées, pannes, maintenances).
 + Structure :
-
     + id, name, type (Incident/Alerte/Attaque Détectée/Panne/Maintenance).
     + timestamp (format ISO 8601).
     + severity (critical, high, medium, low).
@@ -54,10 +48,8 @@
 
 
 1. Fichier processes_final.csv
-
 + Contenu : Liste unique et exhaustive de tous les processus métier référencés dans vos fichiers.
 + Structure :
-
     + id (ex: process-001).
     + name (ex: "Gestion des Réservations").
     + description (ex: "Processus métier : Gestion des réservations clients et des contrats.").
