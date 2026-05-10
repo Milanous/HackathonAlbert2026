@@ -31,4 +31,4 @@ Il n’y a pas de « bonne réponse ». Il y a une proposition de démarche cl
 
 ## Livraison des travaux
 
-Elle se fait dans le répertoire [ProjetsEtudiantsHackathon2026](https://github.com/eanique/HackathonAlbert2026/tree/ec845ae5777130e9b31bf3a75ef94dd44bc11ce8/ProjetsEtudiantsHackathon2026). Creez un répertoire pour votre groupe, insérez-y un fichier avec la composition du groupe (prénoms et noms des membes du groupe). 
+Elle se fait dans le répertoire [ProjetsEtudiantsHackathon2026](https://github.com/eanique/HackathonAlbert2026/tree/3ea2c16a2b2f3d527fb99a35470396ed0ddd0ea8/ProjetsEtudiantsHackathon2026). Creez un répertoire pour votre groupe, insérez-y un fichier avec la composition du groupe (prénoms et noms des membes du groupe). 
