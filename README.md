@@ -34,3 +34,13 @@ Il n’y a pas de « bonne réponse ». Il y a une proposition de démarche cl
 Elle se fait dans le répertoire [ProjetsEtudiantsHackathon2026](). 
 
 Creez un répertoire pour votre groupe, insérez-y un fichier avec la composition du groupe (prénoms et noms des membes du groupe). 
+
+Votre réponse  comporte :
+
+## Critères d'appréciation
++ Utilisation de bibliothèques et démarches datascience et IA (NLP, LLM, automatisation, data ploting, etc.).
++ Bon emploi des données : normalisation, nettoyage, liens entre les données, enrichisssement, labélisation, etc.
++ Précision des résultats : mapping, liens, etc. pertinents
++ Automatisation : usage d'API, de librairies, etc.
++ Collaboration : bonne répartition du travail entre les membres
++ Présentation : clarté, conviction
