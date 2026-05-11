@@ -1,0 +1,11 @@
+zone_id,name,coordinates,risk_level,description
+ZONE-001,Détroit de Malacca,"1.0,101.0;5.0,104.0",High,Zone à haut risque de piraterie et de spoofing AIS.
+ZONE-002,Golfe d'Aden,"12.0,45.0;15.0,50.0",Critical,Zone critique pour les attaques de navires commerciaux.
+ZONE-003,Mer de Chine Méridionale,"5.0,105.0;25.0,120.0",High,Conflits territoriaux et activités suspectes fréquentes.
+ZONE-004,Canal de Suez,"29.0,32.0;30.0,33.0",Medium,Passage stratégique avec risques de spoofing.
+ZONE-005,Détroit d'Ormuz,"25.0,56.0;26.0,57.0",Critical,"Point de passage obligatoire pour le pétrole, ciblé par des sanctions."
+ZONE-006,Mer Noire,"40.0,27.0;47.0,42.0",Medium,Activités militaires et civiles suspectes.
+ZONE-007,Côte de Somalie,"-1.0,45.0;5.0,52.0",High,Zone historique de piraterie.
+ZONE-008,Détroit de Gibraltar,"35.9, -5.5;36.2, -5.3",Low,Passage très surveillé mais avec des cas de spoofing.
+ZONE-009,Mer du Nord,"50.0,0.0;60.0,10.0",Low,Zone à faible risque mais avec des activités suspectes occasionnelles.
+ZONE-010,Océan Indien,"-20.0,50.0;10.0,100.0",Medium,Vaste zone avec peu de surveillance.

@@ -1,0 +1,9 @@
+behavior_id,mmsi,type,description,timestamp,confidence
+BEH-001-0,244710001,MMSI Spoofing,MMSI changé de 244710001 à FAKE-2776438.,2026-05-10T09:00:00Z,0.96
+BEH-001-1,244710001,Speed Anomaly,Vitesse anormale : 48.5 nœuds (limite : 25 nœuds).,2026-05-10T10:00:00Z,0.99
+BEH-003-0,244710003,MMSI Spoofing,MMSI changé de 244710003 à FAKE-2660034.,2026-05-11T12:00:00Z,0.72
+BEH-003-1,244710003,Fake Position,Position fausse détectée (écart de 0.07°).,2026-05-11T12:00:00Z,0.75
+BEH-003-2,244710003,Speed Anomaly,Vitesse anormale : 33.0 nœuds (limite : 25 nœuds).,2026-05-10T06:00:00Z,0.87
+BEH-005-0,244710005,AIS Disabled,AIS désactivé pendant 19 heures.,2026-05-11T07:00:00Z,0.8
+BEH-007-0,244710007,Speed Anomaly,Vitesse anormale : 35.7 nœuds (limite : 25 nœuds).,2026-05-10T19:00:00Z,0.72
+BEH-009-0,244710009,Course Anomaly,Changement de cap brutal (180° en 5 min).,2026-05-11T11:00:00Z,0.87
