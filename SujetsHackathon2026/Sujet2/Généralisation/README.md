@@ -1,4 +1,4 @@
-##Avec la base de données suivante:
+## Avec la base de données suivante:
 
 1. Fichier nodes_attacks_final.csv
 + Contenu : 100 attaques (TTPs et CVE) représentatives.
@@ -8,7 +8,7 @@
     + cvss_score et cvss_vector pour les CVE.
 
 
-1. ichier rels_dependencies_final.csv
+2. ichier rels_dependencies_final.csv
 + Contenu : ~2 000 dépendances entre actifs (1 à 4 dépendances par actif).
 + Structure :
     + source, target (IDs des actifs).
@@ -17,7 +17,7 @@
     + description (ex: "L'actif IT-SRV-001 dépend de IT-NET-001 pour communiquer.").
 
 
-1. Fichier rels_targets_final.csv
+3. Fichier rels_targets_final.csv
 + Contenu : ~500 liens entre attaques et actifs ciblés.
 + Structure :
     + source (ID de l’attaque, ex: T1059).
@@ -27,7 +27,7 @@
     + mitigation (ex: "Isoler IT-SRV-001 et appliquer les correctifs pour T1059.").
 
 
-1. Fichier rels_generated_final.csv
+4. Fichier rels_generated_final.csv
 + Contenu : ~300 liens entre attaques et événements générés.
 + Structure :
     + source (ID de l’attaque).
@@ -36,7 +36,7 @@
     + probability (0.5 à 1.0).
 
 
-1. Fichier nodes_events_final.csv
+5. Fichier nodes_events_final.csv
 + Contenu : 200 événements (incidents, alertes, attaques détectées, pannes, maintenances).
 + Structure :
     + id, name, type (Incident/Alerte/Attaque Détectée/Panne/Maintenance).
@@ -47,7 +47,7 @@
     + related_attacks (liste des IDs d’attaques liées, si applicable).
 
 
-1. Fichier processes_final.csv
+6. Fichier processes_final.csv
 + Contenu : Liste unique et exhaustive de tous les processus métier référencés dans vos fichiers.
 + Structure :
     + id (ex: process-001).
