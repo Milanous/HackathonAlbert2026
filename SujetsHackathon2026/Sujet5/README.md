@@ -11,5 +11,39 @@ Pour rendre l’exercice concret et stimulant, la mission proposée pendant ce h
 L’objectif final est de montrer comment un outil basé sur l’intelligence artificielle peut transformer des images satellites brutes en information exploitable. L’équipe qui remportera la mission sera celle qui parviendra à identifier le plus grand nombre de navires militaires tout en démontrant la pertinence et l’efficacité de sa méthode de détection.
 
 ## SOURCE
-Navires avec labels : https://huggingface.co/datasets/DefendIntelligence/vessel-detection-labeled-patches
+Ressources pour les Images Satellites
+Pour obtenir des images satellites réelles avec des navires, utilisez ces sources :
+
+Navires avec labels : 
++ https://huggingface.co/datasets/DefendIntelligence/vessel-detection-labeled-patches
+
+
+xView Dataset : https://xviewdataset.org/
+
+Contient 1 million d'objets annotés sur des images satellites (dont des navires).
+Format COCO compatible.
+
+
+Sentinel Hub : https://www.sentinel-hub.com/
+
+Accès aux images Sentinel-2 (résolution 10m, gratuites).
+API pour télécharger des images.
+
+
+Maxar Open Data Program : https://www.maxar.com/open-data
+
+Images haute résolution (jusqu'à 0.5m) pour des événements spécifiques.
+
+
+Google Earth Engine : https://earthengine.google.com/
+
+Accès à des pétabytes d'images satellites (Sentinel, Landsat, etc.).
+API Python pour l'analyse.
+
+
+Kaggle Datasets :
+
+Ships in Satellite Imagery
+Contient des images avec des navires annotés.
+
 
