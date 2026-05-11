@@ -17,3 +17,8 @@ Concevoir une solution autonome, à partir d’outils open et sources de donnée
 + Modéliser les signatures
 + Automatiser l’identification
 + Valider la solution
+
+
+**SOURCES**
+
++ AIS, MMSI, IMO : https://www.marinetraffic.com
